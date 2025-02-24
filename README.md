@@ -6,8 +6,8 @@ Name: Seattle
 Country: USA
 Population: 797700
 
-Process
+# Process
 When a user submits a new city, the data is collected through a form. The city information is temporarily stored in the app's state. After adding a city, the user is redirected back to the cities list page. When a user clicks on a city name in the list, the app uses the useParams hook from React Router to fetch the city’s details and display them dynamically on the page.
 
-Output
+# Output
 A confirmation message once a new city is successfully added.
